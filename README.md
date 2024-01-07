@@ -1,46 +1,33 @@
-Code Gurukul E-Learning Website
+# Code Gurukul E-Learning Website
 Overview
 Code Gurukul E-Learning Website is an online platform designed to provide high-quality programming and technology-related courses. This README.md file serves as a guide for developers, contributors, and users to understand the structure and setup of the project.
 
-Table of Contents
+# Table of Contents
 Installation
 Usage
 Contributing
 License
-Installation
+# Installation
 To get started with the Code Gurukul E-Learning Website, follow these steps:
 
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/codegurukul/e-learning-website.git
 Navigate to the project directory:
 
-bash
-Copy code
+
 cd e-learning-website
-Install dependencies:
 
-bash
-Copy code
-npm install
-Configure the environment:
-Create a .env file and add necessary environment variables.
 
-Start the development server:
-
-bash
-Copy code
-npm start
-Usage
+# Usage
 The Code Gurukul E-Learning Website provides a user-friendly interface to browse courses, enroll in classes, and track progress. Users can:
 
 Browse courses by categories.
 Enroll in courses of interest.
 Access course materials, quizzes, and assignments.
 Track progress and achievements.
-Contributing
+# Contributing
 We welcome contributions from the community. If you'd like to contribute to the project, please follow these steps:
 
 Fork the repository.
