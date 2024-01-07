@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Gurukul</title>
+    <link rel="icon" type="images/png" href="images/Remove background project.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+    <style>
+        .dropdown-content {
+            display: none;
+            list-style-type: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    <!--
+    ===================
+        NAVIGATION
+    ===================
+    -->
+    <header class="nav-scroll fixed-top mh-xss-mobile-nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.svg" alt="" >
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#course">Course</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#others">Others</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-btn" href="#subscribe">Sign In</a>
+                        </li>                            
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--
+    ==============
+        HOME 
+    ==============
+    -->
+    <section class="header-section d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <div class="header-details">
+                        
+                        <h1>Learn With fun <br> on <span>any schedule</span></h1>
+                        <p>Unlock the Language of Machines: Your Gateway to Coding Brilliance Begins Here!</p>
+                        <button class="get-btn">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 ml-auto">
+                    <div class="header-image">
+                        <img src="images/picture/Slider_2-01-removebg-preview.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    
+    
+    <!--
+    ==============
+        Cards 
+    ==============
+    -->  
+    <section class="cards-section sec-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="cards-inner">
+                        <img src="images/icon/book.png" alt="" class="img-fluid">
+                        <h5>1500+ Topic</h5>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="cards-inner">
+                        <img src="images/icon/students-icon-2.png" alt="" class="img-fluid">
+                        <h5>1800+ Students</h5>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="cards-inner">
+                        <img src="images/icon/paper.png" alt="" class="img-fluid">
+                        <h5>9K+ Test Token</h5>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="cards-inner">
+                        <img src="images/icon/student-icon.png" alt="" class="img-fluid">
+                        <h5>2000+ Student</h5>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>                                                
+            </div>
+        </div>
+    </section> 
+    <!--
+    ==============
+        Course 
+    ==============
+    -->  
+    <section class="course-section sec-padding" id="course">      
+        <div class="container">
+            <h2 class="text-center title-text">Online Courses</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="images/picture/Full-Stack-Web-Developer-in.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title mt-5">Full Stack Developer</h5>
+                        <p class="card-text">Designation.</p>
+                        <button class="buy-btn" onclick="window.location.href='Blog.html#full-stack'">Start learning</button>
+                  
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between">
+                            <div class="date d-flex">
+                                <img src="images/icon/calendar.png" alt="">
+                                <h6>Start 20  April, 2021</h6>
+                            </div>
+                            <div class="date d-flex">
+                                <img src="images/icon/people.png" alt="">
+                                <h6>Unlimited</h6>
+                            </div>                            
+                        </div>
+                    </div>                
+                </div>
+                <div class="card">
+                    <img src="images/picture/devops-engineer.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2">Devops web developer</h5>
+                        <p class="card-text">Designation.</p>
+                        <button class="buy-btn" onclick="window.location.href='Blog.html#devops'">Start learning</button>
+                
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between">
+                            <div class="date d-flex">
+                                <img src="images/icon/calendar.png" alt="">
+                                <h6>Start 20  April, 2021</h6>
+                            </div>
+                            <div class="date d-flex">
+                                <img src="images/icon/people.png" alt="">
+                                <h6>Unlimited</h6>
+                            </div>                            
+                        </div>
+                    </div>                   
+                </div>
+                <div class="card">
+                    <img src="images/picture/Banner-Python-Developer.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Python Developer</h5>
+                        <p class="card-text">Designation.</p>
+                        <button class="buy-btn" onclick="window.location.href='Blog.html#Python-Developer'">Start learning</button>
+                  
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between">
+                            <div class="date d-flex">
+                                <img src="images/icon/calendar.png" alt="">
+                                <h6>Start 20  April, 2021</h6>
+                            </div>
+                            <div class="date d-flex">
+                                <img src="images/icon/people.png" alt="">
+                                <h6>Unlimited</h6>
+                            </div>                            
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!--
+    ==============
+        Video 
+    ==============
+    -->  
+    <section class="video-section sec-padding" id="others">      
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 d-flex align-items-center">
+                    <div class="video-details">
+                        <h2>Helping people grow their careers, every day!</h2>
+                        <p>Empowering career growth one step at a time, because success is not just a destination—it's a daily journey. Join us in shaping brighter professional futures, every day!</p>
+                        <button class="get-btn">Start Learning</button> 
+                    </div>
+                </div>
+                <div class="col-md-6 ml-auto">
+                    <div class="video-image">
+                        <img src="images/picture/stuednt-video.jpg" alt="" class="img-fluid">
+                        <a href="https://www.youtube.com/embed/b6FdqRrrMlQ" target="_blank">
+                            <div class="video-icon">
+                                <img src="images/icon/play.png" alt="">
+                            </div>                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    
+    
+
+    <div class="container mt-3" id="topics">
+    
+        <div class="card mb-3" style="max-width: 1120px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/picture/header-image.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Full Stack Development Course</h5>
+                  <p class="card-text"><ul>
+                    <li onclick="toggleDropdown('module1')"><b>Module 1: Introduction to Full Stack Development</b>
+                        <ul id="module1" class="dropdown-content">
+                            <li>Overview of Front-end and Back-end Technologies</li>
+                            <li>Basics of Web Development</li>
+                            <li>Setting Up the Development Environment</li>
+                        </ul>
+                    </li>
+                    <li onclick="toggleDropdown('module2')"><b>Module 2: HTML and CSS</b>
+                        <ul id="module2" class="dropdown-content">
+                            <li>HTML Basics: Elements, Attributes, and Document Structure</li>
+                            <li>CSS Fundamentals: Selectors, Properties, and Box Model</li>
+                            <li>Responsive Design and Flexbox</li>
+                        </ul>
+                    </li>
+                    <li onclick="toggleDropdown('module3')"><b>Module 3: JavaScript and DOM Manipulation</b>
+                        <ul id="module3" class="dropdown-content">
+                            <li>JavaScript Basics: Syntax, Variables, and Data Types</li>
+                            <li>DOM Manipulation and Event Handling</li>
+                            <li>Asynchronous JavaScript: Callbacks, Promises, and Async/Await</li>
+                        </ul>
+                    </li>
+                    <li onclick="toggleDropdown('module4')"><b>Module 4: Front-end Frameworks</b>
+                        <ul id="module4" class="dropdown-content">
+                            <li>Introduction to React (or Angular, Vue.js)</li>
+                            <li>Components, State, and Props</li>
+                            <li>Client-Side Routing and SPA Concepts</li>
+                        </ul>
+                    </li>
+                    <li onclick="toggleDropdown('module5')"><b>Module 5: Back-end Development</b>
+                        <ul id="module5" class="dropdown-content">
+                            <li>Node.js and Express Basics</li>
+                            <li>Building RESTful APIs</li>
+                            <li>Authentication and Authorization</li>
+                        </ul>
+                    </li>
+                    <li onclick="toggleDropdown('module6')"><b>Module 6: Databases</b>
+                        <ul id="module6" class="dropdown-content">
+                            <li>Relational Databases: MySQL or PostgreSQL</li>
+                            <li>NoSQL Databases: MongoDB</li>
+                            <li>ORMs and Database Integrations</li>
+                        </ul>
+                    </li>
+                    <li onclick="toggleDropdown('module7')"><b>Module 7: DevOps and Deployment</b>
+                        <ul id="module7" class="dropdown-content">
+                            <li>Understanding Git and GitHub</li>
+                            <li>Basic of Containerization: Docker</li>
+                            <li>Deploying Applications on Cloud Platforms (AWS, Azure, etc.)</li>
+                        </ul>
+                    </li>
+                    <li onclick="toggleDropdown('module8')"><b>Module 8: Final Project</b>
+                        <ul id="module8" class="dropdown-content">
+                            <li>Project Planning and Design</li>
+                            <li>Building a Full Stack Application</li>
+                            <li>Testing and Deployment</li>
+                        </ul>
+                    </li>
+                </ul>
+                </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+    
+    </div>
+    <!--
+    ==============
+        Testimonial 
+    ==============
+    -->  
+    <section class="testimonial-section sec-padding">      
+        <div class="container">
+            <h2 class="text-center title-text">Testimonial</h2>  
+            <div class="row">
+                <div class="col-md-9 mx-auto">
+                    <div class="testimonial-inner d-lg-flex justify-content-between">
+                        <img src="images/picture/man.png" alt="" class="img-fluid">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour, 
+                           or randomised words which don't look even slightly believable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!--
+    ==============
+        Subscribe 
+    ==============
+    -->  
+    <section class="subscribe-section" id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-9 mx-auto">
+                    <div class="subscribe-inner text-center">
+                        <h2>Do you want to be an instructor?</h2>
+                        <a href="mailto:mohammadsaidul2k19@gmail.com" class="get-btn">Join With Us</a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!--
+    ==============
+        Footer 
+    ==============
+    -->  
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-p">
+                        <p>Millions of people of all ages and from around
+                            the world are improving their lives with us</p>
+                    </div>
+                </div>
+                <div class="col-md-7 ml-auto">
+                    <div class="footer-inner d-flex justify-content-between">
+                        <div class="footer-list-item">
+                            <ul class="list-unstyled">
+                                <li>Course</li>
+                                <li><a href="#">Graphic Design</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Engineering</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-list-item">
+                            <ul class="list-unstyled">
+                                <li>Terms</li>
+                                <li><a href="#">Graphic Design</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Engineering</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-list-item">
+                            <ul class="list-unstyled">
+                                <li>Useful Links</li>
+                                <li><a href="#">Graphic Design</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Engineering</a></li>
+                            </ul>
+                        </div>  
+                    </div>                                      
+                </div>
+            </div>
+            <div class="copyright text-center">
+                <small>Copyright © 2024 Code Gurukul </small>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleDropdown(section) {
+            var content = document.getElementById(section);
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
